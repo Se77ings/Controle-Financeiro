@@ -123,3 +123,4 @@ C:\Github\Controle-Financeiro\bin\Debug\net8.0-windows\runtimes\win-arm\native\e
 C:\Github\Controle-Financeiro\bin\Debug\net8.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Github\Controle-Financeiro\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\Github\Controle-Financeiro\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Github\Controle-Financeiro\obj\Debug\net8.0-windows\Controle-Financeiro.sourcelink.json

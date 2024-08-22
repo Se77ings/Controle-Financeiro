@@ -1,4 +1,3 @@
-using Controle_Financeiro.controller;
 using Controle_Financeiro.data;
 using System.Drawing.Text;
 
@@ -7,7 +6,6 @@ namespace Controle_Financeiro
     public partial class Login : Form
     {
         private DataContext context;
-        private UserController userController;
         public Login()
         {
             InitializeComponent();
@@ -19,8 +17,6 @@ namespace Controle_Financeiro
 
 
             context = new DataContext(); // Certifique-se de que DataContext esteja configurado corretamente
-            userController = new UserController(context);
-
 
             var user = inputName.Text;
             var pwd = inputPwd.Text;
@@ -53,7 +49,6 @@ namespace Controle_Financeiro
 
             try
             {
-                userController.Create(user, pwd);
                 MessageBox.Show("Usuário criado com sucesso!", "Sucesso");
                 //redirect!
             }
